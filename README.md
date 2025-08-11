@@ -1,38 +1,30 @@
 # RAG Engine Project
 
-A simple RAG engine system
+A lightweight Retrieval-Augmented Generation (RAG) system for storing a knowledge base and retrieving enhanced, context-aware responses.
 
 ## 🚀 Features
 
-- Fast 
-
-- Easy to use
-
-- Store knowledge base data & ask quires & Enhanced response 
-
+- High performance and easy to set up
+- Simple and user-friendly workflow
+- Store knowledge base data, run queries, and get enriched answers
 
 ## 📦 Installation
-``` base
 
-git clone https://github.com/manokaran7373/Simple-RAG-Engine.git
+- git clone https://github.com/manokaran7373/Simple-RAG-Engine.git
+- cd Simple-RAG-Engine
+- pip install -r requirements.txt
 
-cd Simple-RAG-Engine
+## ⚙ Configuration
 
-pip install -r requirements.txt
+- Store your knowledge base data inside the store_vectors file
+(Example: /Project-Folder/Chroma_db/python.txt)
+- Create a .env file and set your required credentials
 
+## ▶ Run the Application
 
-```
-- Store knowledge base data in store_vectors file (e.g.,/Project-Folder/Chroma_db/python.txt )
-
-- Set .env file with your credentials
-
-## ➡ Run
 - cd app
 - python -m utils.store_vectors
-
 - python -m utils.retrieve_vectors
-
-
 
 
 
