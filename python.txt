@@ -1,0 +1,17 @@
+1.What is Python?
+Python is a high-level, interpreted programming language known for its simplicity, readability, and wide range of libraries.
+
+2.What is a variable in Python?
+A variable is a name that refers to a value stored in memory. Example: x = 5.
+
+3.What is a function in Python?
+A function is a reusable block of code that performs a specific task, defined using the def keyword.
+
+4.What is a list in Python?
+A list is a mutable, ordered collection of items, defined using square brackets [].
+
+5.What is a tuple in Python?
+A tuple is an immutable, ordered collection of items, defined using parentheses ().
+
+6.What is type casting in Python?
+Type casting is converting a variable from one data type to another, e.g., int("5") converts a string to an integer.
