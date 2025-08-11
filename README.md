@@ -1,8 +1,11 @@
 # My Project
+
 A simple RAG engine system
 
 ## 🚀 Features
+
 - Fast 
+
 - Easy to use
 
 - Store knowledge base data & ask quires & Enhanced response 
@@ -13,17 +16,18 @@ A simple RAG engine system
 
 git clone https://github.com/manokaran7373/Simple-RAG-Engine.git
 
+cd Simple-RAG-Engine
+
 pip install -r requirements.txt
 
-cd app
 
 ```
-## Store knowledge base data (e.g.,/Project-Folder/Chroma_db/python.txt )
+- Store knowledge base data in store_vectors file (e.g.,/Project-Folder/Chroma_db/python.txt )
 
-## set env file with your credentials
+- Set env file with your credentials
 
-## Run
-
+## ➡ Run
+- cd app
 - python -m utils.store_vectors
 - python -m utils.retrieve_vectors
 
