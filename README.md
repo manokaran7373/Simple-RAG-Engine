@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 - Store knowledge base data in store_vectors file (e.g.,/Project-Folder/Chroma_db/python.txt )
 
-- Set env file with your credentials
+- Set .env file with your credentials
 
 ## ➡ Run
 - cd app
