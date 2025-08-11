@@ -26,7 +26,7 @@ if profanity.contains_profanity(query):
     )
 
 else:
-
+    
     # Perform similarity search in vector DB
     try:
         results = collection.query(query_texts=[query], n_results=1)
