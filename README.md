@@ -1,4 +1,4 @@
-# My Project
+# RAG Engine Project
 
 A simple RAG engine system
 
@@ -29,6 +29,7 @@ pip install -r requirements.txt
 ## ➡ Run
 - cd app
 - python -m utils.store_vectors
+
 - python -m utils.retrieve_vectors
 
 
